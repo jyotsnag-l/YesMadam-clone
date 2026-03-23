@@ -1,0 +1,100 @@
+.app-download {
+  background-color: #fdeef1; /* light pink background */
+  padding: 40px 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.team-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.right {
+  flex: 1;
+  max-width: 500px;
+}
+
+.right h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.right p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.prefix {
+  padding: 10px 12px;
+  background: #f3f3f3;
+  border-right: 1px solid #ddd;
+  font-weight: 500;
+}
+
+.form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.form button {
+  padding: 10px 16px;
+  background: #a51c48;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.form button:hover {
+  background: #88163a;
+}
+
+.download-text {
+  margin: 15px 0 10px;
+  font-weight: 500;
+}
+
+.store-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.store-links img {
+  height: 50px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.small-text {
+  font-size: 0.85rem;
+  color: #666;
+}
